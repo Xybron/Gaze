@@ -1,0 +1,6 @@
+student can see profile and edit
+Cannot edit major or courses
+Cannot eidt username, first name, lastname
+
+Add a major
+UPdate a major and delete a major
