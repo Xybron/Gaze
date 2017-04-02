@@ -3,7 +3,7 @@
 }
 
 .gHome {
-    background-image: url(../image/homeImage.jpeg);
+    background-image: url(https://images.pexels.com/photos/265072/pexels-photo-265072.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
 }
 
 .rContent {
@@ -13,6 +13,10 @@
 
 .homeCard {
     min-height: 75vh;
+}
+
+.homeCard label {
+    color: lightgray;
 }
 
 .infoSect {
@@ -89,4 +93,40 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #000000, #434343);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.dashNav {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3494E6, #EC6EAD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3494E6, #EC6EAD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    z-index: 1;
+}
+
+.leftNav {
+    position: fixed;
+    height: 100vh;
+    background-color: royalblue;
+    z-index: 0;
+}
+
+.dashHome {
+    background: none !important;
+}
+
+.rightContent {
+    margin-top: 5rem;
+}
+
+.profile {
+    background-color: white !important;
+}
+
+.dashOpt {
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
 }
