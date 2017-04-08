@@ -70,7 +70,7 @@
     background-color: transparent;
     /*border: 2px solid white;*/
     box-shadow: none;
-    background: #3494E6;
+    background-color: #3494E6;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #3494E6, #EC6EAD);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -129,4 +129,12 @@
     background-color: deepskyblue;
     color: white;
     text-align: center;
+}
+
+.loginDir {
+    text-align: center;
+}
+
+.loginDir a {
+    background: transparent;
 }

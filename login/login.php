@@ -1,3 +1,6 @@
+<?php
+require_once("../unsecure/processUnsecure.php");
+?>
 <!doctype html>
 <html lang="en">
 
@@ -30,33 +33,39 @@
                                                 <h1>Hey There!</h1>
                                                 <p>Welcome to Gaze</p>
                                                 <div class="row">
-                                                    <form class="col s12">
+                                                    <form method = "POST" class="col s12">
                                                         <div class="row">
+                                                            
                                                             <div class="input-field col s12">
                                                                 <i class="material-icons prefix">account_circle</i>
-                                                                <input id="icon_prefix" type="text" class="validate">
+                                                                <input id="icon_prefix" type="text" name = "username" class="validate">
                                                                 <label for="icon_prefix">Username</label>
                                                             </div>
                                                             <div class="input-field col s12">
                                                                 <i class="material-icons prefix">https</i>
-                                                                <input id="icon_https" type="tel" class="validate">
+                                                                <input id="icon_https" type="password" name = "password" class="validate">
                                                                 <label for="icon_https">Password</label>
                                                             </div>
+                                                            
                                                         </div>
-                                                    </form>
-                                                </div>
-                                                <div class="row btnHolder">
+
+                                                         <div class="row btnHolder">
                                                     <div class="container">
-                                                        <a class="waves-effect waves-light roundedBtn btn">Login</a>
+                                                        
+                                                        <button type = "submit" class="waves-effect waves-light roundedBtn btn" name = "logInBtn">Login</button>
+                                                       
 
                                                     </div>
                                                 </div>
+                                                    </form>
+                                                </div>
+                                               
                                                 <div class="row">
                                                     <div class="col s6">
                                                         <a href="#">Forgot password?</a>
                                                     </div>
                                                     <div class="col s6" style="text-align: right">
-                                                        <a href="#">Sign Up</a>
+                                                        <a href="../register/register.php">Sign Up</a>
                                                     </div>
                                                 </div>
                                             </div>
